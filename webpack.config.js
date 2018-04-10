@@ -10,6 +10,7 @@ module.exports = {
         alias: {
             Basic: path.resolve(__dirname, 'app/basic/basic.jsx'),
             Params: path.resolve(__dirname, 'app/params/params.jsx'),
+            Auth: path.resolve(__dirname, 'app/redirect_auth/Auth.jsx'),
         }
     },
     module: {
