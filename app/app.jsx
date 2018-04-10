@@ -4,7 +4,8 @@ import Basic from 'Basic';
 import Params from 'Params';
 import Auth from 'Auth';
 import CustomLink from 'CustomLink';
+import PreventingTransitions from 'PreventingTransitions';
 
 ReactDOM.render(
-    <CustomLink/>, 
+    <PreventingTransitions/>, 
     document.getElementById('root'));

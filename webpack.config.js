@@ -12,6 +12,7 @@ module.exports = {
             Params: path.resolve(__dirname, 'app/params/params.jsx'),
             Auth: path.resolve(__dirname, 'app/redirect_auth/Auth.jsx'),
             CustomLink: path.resolve(__dirname, 'app/custom_link/CustomLink.jsx'),
+            PreventingTransitions: path.resolve(__dirname, 'app/preventing_transitions/PreventingTransitions.jsx'),
         }
     },
     module: {
