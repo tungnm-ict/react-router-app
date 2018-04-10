@@ -6,6 +6,12 @@ module.exports = {
         path: __dirname,
         filename: './public/bundle.js'
     },
+    resolve:{
+        alias: {
+            Basic: path.resolve(__dirname, 'app/basic/basic.jsx'),
+          
+        }
+    },
     module: {
         rules: [
             {
