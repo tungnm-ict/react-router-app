@@ -1,48 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Route, Link, hashHistory} from "react-router-dom";
-
-const Home = () => (
-    <div>
-        <h2>Home</h2>
-    </div>
-);
-
-const About = () => (
-    <div>
-        <h2>About</h2>
-    </div>
-);
-
-const Topics = ({match}) => (
-    <div>
-        <h2>Topics</h2>
-        <ul>
-            <li>
-                <Link to={`${match.url}/rendering`}>Rendering with React</Link>
-            </li>
-            <li>
-                <Link to={`${match.url}/components`}>Components</Link>
-            </li>
-            <li>
-                <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
-            </li>
-        </ul>
-
-        <Route path={`${match.url}/:topicId`} component={Topic}/>
-        <Route exact path={match.url} render={() => <h3>Please select a topic.</h3>}/>
-    </div>
-);
-
-const Topic = ({match}) => (
-    <div>
-        <h3>{match.url}</h3>
-        <h3>{match.params.topicId}</h3>
-    </div>
-);
+import {BrowserRouter as Router, Route, Link, HashRouter} from "react-router-dom";
+import Home from './home.jsx';
+import About from './about.jsx';
+import Topics from './topics.jsx';
 
 export default () => (
-  <Router>
+  <HashRouter>
     <div>
       <ul>
         <li>
@@ -62,5 +26,5 @@ export default () => (
       <Route path="/about" component={About} />
       <Route path="/topics" component={Topics} />
     </div>
-  </Router>
+  </HashRouter>
 );
