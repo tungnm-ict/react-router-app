@@ -5,7 +5,8 @@ import Params from 'Params';
 import Auth from 'Auth';
 import CustomLink from 'CustomLink';
 import PreventingTransitions from 'PreventingTransitions';
+import NoMatch from 'NoMatch';
 
 ReactDOM.render(
-    <PreventingTransitions/>, 
+    <NoMatch/>, 
     document.getElementById('root'));

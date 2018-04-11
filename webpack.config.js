@@ -13,6 +13,7 @@ module.exports = {
             Auth: path.resolve(__dirname, 'app/redirect_auth/Auth.jsx'),
             CustomLink: path.resolve(__dirname, 'app/custom_link/CustomLink.jsx'),
             PreventingTransitions: path.resolve(__dirname, 'app/preventing_transitions/PreventingTransitions.jsx'),
+            NoMatch: path.resolve(__dirname, 'app/no_match/NoMatch.jsx'),
         }
     },
     module: {
