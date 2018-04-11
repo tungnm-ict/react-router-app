@@ -14,6 +14,7 @@ module.exports = {
             CustomLink: path.resolve(__dirname, 'app/custom_link/CustomLink.jsx'),
             PreventingTransitions: path.resolve(__dirname, 'app/preventing_transitions/PreventingTransitions.jsx'),
             NoMatch: path.resolve(__dirname, 'app/no_match/NoMatch.jsx'),
+            Recursive: path.resolve(__dirname, 'app/recursive_path/Recursive.jsx'),
         }
     },
     module: {
