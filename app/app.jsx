@@ -7,8 +7,9 @@ import ReactDOM from 'react-dom';
 // import PreventingTransitions from 'PreventingTransitions';
 // import NoMatch from 'NoMatch';
 // import Recursive from 'Recursive';
-import SideBar from 'SideBar';
+// import SideBar from 'SideBar';
+import AnimatedTransitions from 'AnimatedTransitions';
 
 ReactDOM.render(
-    <SideBar/>, 
+    <AnimatedTransitions/>, 
     document.getElementById('root'));
