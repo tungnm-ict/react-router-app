@@ -15,6 +15,7 @@ module.exports = {
             PreventingTransitions: path.resolve(__dirname, 'app/preventing_transitions/PreventingTransitions.jsx'),
             NoMatch: path.resolve(__dirname, 'app/no_match/NoMatch.jsx'),
             Recursive: path.resolve(__dirname, 'app/recursive_path/Recursive.jsx'),
+            SideBar: path.resolve(__dirname, 'app/side_bar/SideBar.jsx'),
         }
     },
     module: {
