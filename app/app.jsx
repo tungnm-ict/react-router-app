@@ -9,8 +9,9 @@ import ReactDOM from 'react-dom';
 // import Recursive from 'Recursive';
 // import SideBar from 'SideBar';
 // import AnimatedTransitions from 'AnimatedTransitions';
-import AmbiguousMatches from 'AmbiguousMatches';
+// import AmbiguousMatches from 'AmbiguousMatches';
+import RouteConfig from 'RouteConfig';
 
 ReactDOM.render(
-    <AmbiguousMatches/>, 
+    <RouteConfig/>, 
     document.getElementById('root'));
