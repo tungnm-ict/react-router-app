@@ -17,6 +17,7 @@ module.exports = {
             Recursive: path.resolve(__dirname, 'app/recursive_path/Recursive.jsx'),
             SideBar: path.resolve(__dirname, 'app/side_bar/SideBar.jsx'),
             AnimatedTransitions: path.resolve(__dirname, 'app/animated_transitions/AnimatedTransitions.jsx'),
+            AmbiguousMatches: path.resolve(__dirname, 'app/ambiguous_matches/AmbiguousMatches.jsx'),
         }
     },
     module: {

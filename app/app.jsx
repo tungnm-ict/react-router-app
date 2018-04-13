@@ -8,8 +8,9 @@ import ReactDOM from 'react-dom';
 // import NoMatch from 'NoMatch';
 // import Recursive from 'Recursive';
 // import SideBar from 'SideBar';
-import AnimatedTransitions from 'AnimatedTransitions';
+// import AnimatedTransitions from 'AnimatedTransitions';
+import AmbiguousMatches from 'AmbiguousMatches';
 
 ReactDOM.render(
-    <AnimatedTransitions/>, 
+    <AmbiguousMatches/>, 
     document.getElementById('root'));
