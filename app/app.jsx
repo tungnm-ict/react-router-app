@@ -10,8 +10,9 @@ import ReactDOM from 'react-dom';
 // import SideBar from 'SideBar';
 // import AnimatedTransitions from 'AnimatedTransitions';
 // import AmbiguousMatches from 'AmbiguousMatches';
-import RouteConfig from 'RouteConfig';
+// import RouteConfig from 'RouteConfig';
+import ModalGallery from 'ModalGallery';
 
 ReactDOM.render(
-    <RouteConfig/>, 
+    <ModalGallery/>, 
     document.getElementById('root'));

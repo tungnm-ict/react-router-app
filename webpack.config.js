@@ -19,6 +19,7 @@ module.exports = {
             AnimatedTransitions: path.resolve(__dirname, 'app/animated_transitions/AnimatedTransitions.jsx'),
             AmbiguousMatches: path.resolve(__dirname, 'app/ambiguous_matches/AmbiguousMatches.jsx'),
             RouteConfig: path.resolve(__dirname, 'app/route_config/RouteConfig.jsx'),
+            ModalGallery: path.resolve(__dirname, 'app/modal_gallery/ModalGallery.jsx'),
         }
     },
     module: {
