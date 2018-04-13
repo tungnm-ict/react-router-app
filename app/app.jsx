@@ -11,8 +11,9 @@ import ReactDOM from 'react-dom';
 // import AnimatedTransitions from 'AnimatedTransitions';
 // import AmbiguousMatches from 'AmbiguousMatches';
 // import RouteConfig from 'RouteConfig';
-import ModalGallery from 'ModalGallery';
+// import ModalGallery from 'ModalGallery';
+import StaticRouterExample from 'StaticRouterExample';
 
 ReactDOM.render(
-    <ModalGallery/>, 
+    <StaticRouterExample/>, 
     document.getElementById('root'));

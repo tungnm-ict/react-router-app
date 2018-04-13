@@ -20,6 +20,7 @@ module.exports = {
             AmbiguousMatches: path.resolve(__dirname, 'app/ambiguous_matches/AmbiguousMatches.jsx'),
             RouteConfig: path.resolve(__dirname, 'app/route_config/RouteConfig.jsx'),
             ModalGallery: path.resolve(__dirname, 'app/modal_gallery/ModalGallery.jsx'),
+            StaticRouterExample: path.resolve(__dirname, 'app/static_router/StaticRouterExample.jsx'),   
         }
     },
     module: {
